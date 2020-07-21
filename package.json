@@ -2,7 +2,7 @@
   "name": "api-google-maps",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://antonlabkovich.github.io/api-google-maps/",
+  "homepage": "https://antonlabkovich.github.io/api-google-maps",
   "dependencies": {
     "@material-ui/core": "^4.9.3",
     "@material-ui/icons": "^4.9.1",
