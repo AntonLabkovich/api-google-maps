@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <h3>Google maps API</h3>
-      <Route basepath="/api-google-maps">
+      <Route basepath="https://antonlabkovich.github.io/api-google-maps">
         <Switch>
             <Route exact path='/' component={MapsPage}/>
             <Route path="/login" component={Auth}/>
