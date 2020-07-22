@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <h3>Google maps API</h3>
-      <Link to="/login">Перейти</Link>  
+      <Link to="api-google-maps/login">Перейти</Link>  
       <Route>
         <Switch>
             <Route exact path='/' component={MapsPage}/>
