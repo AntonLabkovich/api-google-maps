@@ -10,6 +10,7 @@ import Auth from "./pages/auth/auth";
 function App() {
   return (
     <div className="App">
+      <h3>Google maps API</h3>
       <Route basepath="/api-google-maps">
         <Switch>
             <Route exact path='/' component={MapsPage}/>

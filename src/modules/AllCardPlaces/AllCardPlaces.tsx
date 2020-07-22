@@ -41,9 +41,9 @@ class AllCard extends React.Component<IallProps, IState> {
     }
 
     componentDidMount() {
-        this.props.fetchData('api/endpoint/plases.json', this.props.places);
+        this.props.fetchData('https://antonlabkovich.github.io/api-google-maps/api/endpoint/plases.json', this.props.places);
         let intervalID = setInterval(() => {
-            this.props.fetchData('api/endpoint/plases.json', this.props.places);
+            this.props.fetchData('https://antonlabkovich.github.io/api-google-maps/api/endpoint/plases.json', this.props.places);
         }, 3000);
         this.setState({
             timerID: intervalID
