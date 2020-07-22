@@ -10,11 +10,12 @@ import Auth from "./pages/auth/auth";
 function App() {
   return (
     <div className="App">
+      <Route basepath="/api-google-maps">
         <Switch>
-          <Route exact path='/' component={MapsPage}/>
-            <Route exact path='antonlabkovich.github.io/api-google-maps' component={MapsPage}/>
+            <Route exact path='/' component={MapsPage}/>
             <Route path="/login" component={Auth}/>
         </Switch>
+      </Route>
     </div>
   );
 }

@@ -47,8 +47,8 @@ class MapsContainer extends React.Component<fullPropsType, IMapsContainerState> 
             // @ts-ignore
              style={{width:'75%'}}
             // @ts-ignore
-             center={{ lat: +this.props.HerePlace.lat,
-                        lng: +this.props.HerePlace.lng}}>
+             center={{ lat: this.props.HerePlace.lat,
+                        lng: this.props.HerePlace.lng}}>
 
             <Marker
             // @ts-ignore
