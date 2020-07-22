@@ -11,8 +11,9 @@ function App() {
   return (
     <div className="App">
       <h3>Google maps API</h3>
-      <Route basepath="api-google-maps/">
+      <Route>
         <Switch>
+            <Route exact path='/' component={MapsPage}/>
             <Route exact path='api-google-maps/' component={MapsPage}/>
             <Route path="api-google-maps/login" component={Auth}/>
         </Switch>

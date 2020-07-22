@@ -72,7 +72,7 @@ export default class Auth extends React.Component<IProps, IState> {
                 </Paper>:<CircularProgress className={'progress'}/>}
             </div>
         );
-        return <Redirect to="/api-google-maps/"/>;
+        return <Redirect to="/"/>;
     }
 
     handleChange = (e: ChangeEvent<HTMLInputElement>) => {
