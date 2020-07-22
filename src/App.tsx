@@ -13,8 +13,8 @@ function App() {
       <Auth/>
       <Route>
         <Switch>
-            <Route exact path='api-google-maps/' component={MapsPage}/>
-            <Route path="api-google-maps/login" component={Auth}/>
+            <Route exact path='api-google-maps/maps' component={MapsPage}/>
+            <Route path="api-google-maps/" component={Auth}/>
         </Switch>
       </Route>
     </div>
