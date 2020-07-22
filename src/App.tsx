@@ -11,7 +11,8 @@ function App() {
   return (
     <div className="App">
         <Switch>
-            <Route exact path='/' component={MapsPage}/>
+          <Route exact path='/' component={MapsPage}/>
+            <Route exact path='/api-google-maps' component={MapsPage}/>
             <Route path="/login" component={Auth}/>
         </Switch>
     </div>

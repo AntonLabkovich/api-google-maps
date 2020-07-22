@@ -104,7 +104,7 @@ export default class Auth extends React.Component<IProps, IState> {
         this.setState({
             loading: true
         });
-        fetch('./api/endpoint/users.json')
+        fetch('https://antonlabkovich.github.io/api-google-maps/api/endpoint/users.json')
             .then(res=>res.json())
             .then((users)=>{
                 ok = users.some((item:User)=>item.name.toUpperCase()===this.state.valueName.toUpperCase()&&item.password===this.state.valuePas);
