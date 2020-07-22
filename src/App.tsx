@@ -11,12 +11,12 @@ function App() {
   return (
     <div className="App">
       <h3>Google maps API</h3>
-      <Link to="api-google-maps/login">Перейти</Link>  
+      <Link to="/login">Перейти</Link> 
+      <Auth/>
       <Route>
         <Switch>
             <Route exact path='/' component={MapsPage}/>
-            <Route exact path='api-google-maps/' component={MapsPage}/>
-            <Route path="api-google-maps/login" component={Auth}/>
+            <Route path="/login" component={Auth}/>
         </Switch>
       </Route>
     </div>
