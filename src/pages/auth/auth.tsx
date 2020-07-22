@@ -69,7 +69,7 @@ export default class Auth extends React.Component<IProps, IState> {
                 </Paper>:<CircularProgress className={'progress'}/>}
             </div>
         );
-        return <Redirect to="/"/>;
+        return <Redirect to="/maps"/>;
     }
 
     handleChange = (e: ChangeEvent<HTMLInputElement>) => {

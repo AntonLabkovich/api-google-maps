@@ -67,7 +67,7 @@ export default class MapsPage extends React.Component<IPropsMaps> {
                     <AllCard/>
                 </div>
             );
-        return <Redirect to="/maps"/>;
+        return <Redirect to="/"/>;
         }
 }
 
