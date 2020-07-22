@@ -64,9 +64,6 @@ export default class Auth extends React.Component<IProps, IState> {
                             onClick={this.handleClick}>
                                 Авторизоваться
                             </Button>
-                            <FormControlLabel
-                                control={
-                                    <Checkbox checked={this.state.remember} color="primary" onChange={this.handleClickCheck}/> } label="Запомнить" />
                         </div>
                     </form>
                 </Paper>:<CircularProgress className={'progress'}/>}

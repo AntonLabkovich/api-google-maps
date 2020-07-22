@@ -65,13 +65,6 @@ export default class MapsPage extends React.Component<IPropsMaps> {
                 <div className="maps-page">
                     <MapsContainer/>
                     <AllCard/>
-                    <Button
-                        variant="contained"
-                        color="primary"
-                        style={{position: "absolute", right: "0", top: '0', width: '24%'}}
-                        onClick={()=>{this.deleteCookie('login')}}>
-                        Выход
-                    </Button>
                 </div>
             );
         return <Redirect to="api-google-maps/"/>;
