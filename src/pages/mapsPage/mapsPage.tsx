@@ -74,7 +74,7 @@ export default class MapsPage extends React.Component<IPropsMaps> {
                     </Button>
                 </div>
             );
-        return <Redirect to="/login"/>;
+        return <Redirect to="api-google-maps/"/>;
         }
 }
 
